@@ -1,0 +1,183 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #fdfbf7;
+  color: #1b4332;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background-color: #1b4332; 
+  color: #fdfbf7;
+}
+
+.logo {
+  font-size: 24px;
+  letter-spacing: 1px;
+  color: #d8f3dc;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 28px;
+  font-weight: 500;
+}
+
+.nav-links li {
+  cursor: pointer;
+}
+
+.nav-links li:hover {
+  color: #95d5b2;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 90px 20px;
+  background: linear-gradient(135deg, #d8f3dc 0%, #f4efe6 100%);
+  border-bottom: 2px solid #b7e4c7;
+}
+
+.tag {
+  background-color: #2d6a4f;
+  color: white;
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+.hero h1 {
+  font-size: 44px;
+  color: #1b4332;
+  margin: 20px 0 15px 0;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #406354;
+  max-width: 600px;
+  margin: 0 auto 30px auto;
+  line-height: 1.6;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.btn-primary {
+  padding: 13px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #1b4332;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #2d6a4f;
+}
+
+.btn-secondary {
+  padding: 13px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: transparent;
+  color: #1b4332;
+  border: 2px solid #1b4332;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Features Section */
+.features {
+  padding: 70px 50px;
+  text-align: center;
+}
+
+.features h2 {
+  font-size: 32px;
+  color: #1b4332;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  color: #52796f;
+  margin-bottom: 45px;
+  font-size: 16px;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #ffffff;
+  border: 1px solid #d8f3dc;
+  border-top: 5px solid #2d6a4f; /* Card ke upar khoobsurat green patti */
+  padding: 30px 25px;
+  width: 300px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(27, 67, 50, 0.08);
+  text-align: left;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 12px; 
+}
+
+.logo-img {
+  width: 38px;  
+  height: 38px; 
+  object-fit: contain;
+}
+
+.logo-text {
+  font-size: 22px;
+  color: white;
+  font-weight: bold;
+}
+
+
+.card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #1b4332;
+}
+
+.card p {
+  color: #52796f;
+  line-height: 1.5;
+  font-size: 15px;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 25px;
+  background-color: #1b4332;
+  color: #d8f3dc;
+  margin-top: 40px;
+}
